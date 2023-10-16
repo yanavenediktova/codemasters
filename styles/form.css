@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(226, 245, 255);
+  font-family: "Courier New", Courier, monospace;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  background-color: rgb(249, 253, 255);
+}
+.form-info {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+}
+legend {
+  font-weight: 800;
+}
+
+button {
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+.center-source {
+  display: flex;
+  flex-direction: column;
+}
+.center-source__source {
+  display: flex;
+  column-gap: 10px;
+}
