@@ -1,0 +1,36 @@
+.page-main-wrapper {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-areas: "page-keylinks main-content about-article";
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2.5fr) minmax(0, 15rem);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.page-main {
+  height: 90vh;
+}
+.page-links_link,
+.article-navigation-list_element {
+  margin-bottom: 1.5rem;
+}
+.link {
+  padding: 0.5rem;
+}
+.main-content {
+  padding-top: 1rem;
+}
+.main-page-content_header {
+  margin-bottom: 2rem;
+}
+.page-keylinks {
+  border-right: 1px solid var(--text-secondary);
+}
+.page-keylinks,
+.main-content,
+.about-article {
+  padding-top: 2rem;
+}
+.article-navigation-list {
+  padding-inline-start: 1rem;
+  border-left: 1px solid var(--text-secondary);
+}

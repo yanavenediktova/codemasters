@@ -1,0 +1,43 @@
+:root {
+  --text-primary: #fff;
+  --background-primary: #1b1b1b;
+  --background-secondary: #343434;
+  --text-secondary: #cdcdcd;
+}
+*,
+*::before,
+*::after {
+  box-size: border-box;
+}
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.link {
+  color: var(--text-primary);
+}
+.page-header {
+  color: var(--text-secondary);
+  background-color: var(--background-primary);
+}
+.page-main {
+  color: var(--text-primary);
+  background-color: var(--background-primary);
+}
+.ai-help,
+.page-actions {
+  color: var(--text-secondary);
+  background-color: var(--background-secondary);
+}
+.page-registration {
+  background-color: var(--text-primary);
+}
+.log-in {
+  color: var(--text-secondary);
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
