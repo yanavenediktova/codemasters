@@ -1,0 +1,22 @@
+.page-footer-wrapper {
+  display: flex;
+
+  justify-content: space-around;
+}
+.page-footer-inside-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  column-gap: 4vw;
+}
+.page-footer {
+  background-color: var(--background-secondary);
+  color: var(--text-secondary);
+  padding: 2rem 1rem;
+}
+.footer-support__list,
+.footer-community__list,
+.footer-developers__list,
+.footer-mdn__list {
+  padding-inline-start: 0px;
+}
