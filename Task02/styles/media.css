@@ -51,6 +51,15 @@
   .page-main-wrapper {
     grid-template-columns: 1fr;
   }
+  .page-header__actions {
+    display: none;
+  }
+  .menu-button__btn {
+    display: flex;
+  }
+  .row-hide {
+    justify-content: space-between;
+  }
 }
 @media screen and (max-width: 480px) {
   html {
