@@ -6,9 +6,7 @@
   padding-left: 1rem;
   padding-right: 1rem;
 }
-.page-main {
-  height: 60vh;
-}
+
 .page-links__link,
 .article-navigation-list__element {
   margin-bottom: 1.5rem;
@@ -18,6 +16,13 @@
 }
 .main-content {
   padding-top: 1rem;
+  grid-area: main-content;
+}
+.about-article {
+  grid-area: about-article;
+}
+.page-keylinks {
+  grid-area: page-keylinks;
 }
 .main-page-content__header {
   margin-bottom: 2rem;
@@ -33,4 +38,7 @@
 .article-navigation-list {
   padding-inline-start: 1rem;
   border-left: 1px solid var(--text-secondary);
+}
+.sidebar {
+  display: contents;
 }

@@ -4,15 +4,21 @@
 }
 .ai-help__text {
   justify-content: center;
+  text-align: center;
 }
 .ai-help {
   padding: 10px;
+  font-size: 1rem;
 }
 .page-header {
   padding: 10px 20px;
+  font-size: 1rem;
+}
+.page-footer__element {
+  padding: 5px;
 }
 .page-menu {
-  column-gap: 2rem;
+  column-gap: 1vw;
 }
 .page-header__options {
   column-gap: 0.5rem;

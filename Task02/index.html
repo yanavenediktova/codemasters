@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./styles/main-page.css" />
     <link rel="stylesheet" href="./styles/page-header.css" />
     <link rel="stylesheet" href="./styles/page-footer.css" />
+    <link rel="stylesheet" href="./styles/media.css" />
   </head>
   <body>
     <div class="ai-help">
@@ -57,10 +58,12 @@
               <input type="search" class="page-search" />
             </div>
             <div class="page-header__log-in">
-              <button class="log-in">Log in</button>
+              <button type="button" class="log-in">Log in</button>
             </div>
             <div class="page-header__registration">
-              <button class="page-registration">Sign up for free</button>
+              <button type="button" class="page-registration">
+                Sign up for free
+              </button>
             </div>
           </div>
         </div>
@@ -72,29 +75,50 @@
     </div>
     <main class="page-main">
       <div class="page-main-wrapper">
-        <aside class="page-keylinks">
-          <ul class="page-links">
-            <li class="page-links__link">
-              <a href="#" class="link link-html">HTML</a>
-            </li>
-            <li class="page-links__link">
-              <a href="#" class="link link-tutorials">Tutorials</a>
-            </li>
-            <li class="page-links__link">
-              <a href="#" class="link link-html-basics">HTML basics</a>
-            </li>
-            <li class="page-links__link">
-              <details>
-                <summary>Introduction to HTML</summary>
-                <ul>
-                  <li>Images in HTML</li>
-                  <li>Video and audio content</li>
+        <div class="sidebar">
+          <aside class="page-keylinks">
+            <ul class="page-links">
+              <li class="page-links__link">
+                <a href="#" class="link link-html">HTML</a>
+              </li>
+              <li class="page-links__link">
+                <a href="#" class="link link-tutorials">Tutorials</a>
+              </li>
+              <li class="page-links__link">
+                <a href="#" class="link link-html-basics">HTML basics</a>
+              </li>
+              <li class="page-links__link">
+                <details>
+                  <summary>Introduction to HTML</summary>
+                  <ul>
+                    <li>Images in HTML</li>
+                    <li>Video and audio content</li>
+                  </ul>
+                </details>
+              </li>
+              <li class="page-links__link">HTML tables</li>
+            </ul>
+          </aside>
+          <aside class="about-article">
+            <section class="about-article__info">
+              <h2>In this article</h2>
+              <nav class="about-article-navigation">
+                <ul class="article-navigation-list">
+                  <li class="article-navigation-list__element">
+                    Key resources
+                  </li>
+                  <li class="article-navigation-list__element">
+                    Beginner's tutorials
+                  </li>
+                  <li class="article-navigation-list__element">
+                    Advanced topics
+                  </li>
+                  <li class="article-navigation-list__element">Reference</li>
                 </ul>
-              </details>
-            </li>
-            <li class="page-links__link">HTML tables</li>
-          </ul>
-        </aside>
+              </nav>
+            </section>
+          </aside>
+        </div>
         <div class="main-content">
           <article class="main-page-content">
             <header class="main-page-content__header">
@@ -116,34 +140,38 @@
                 functionality/behavior (JavaScript).
               </p>
               <p>
+                HTML (HyperText Markup Language) is the most basic building
+                block of the Web. It defines the meaning and structure of web
+                content. Other technologies besides HTML are generally used to
+                describe a web page's appearance/presentation (CSS) or
+                functionality/behavior (JavaScript).
+              </p>
+              <p>
+                HTML (HyperText Markup Language) is the most basic building
+                block of the Web. It defines the meaning and structure of web
+                content. Other technologies besides HTML are generally used to
+                describe a web page's appearance/presentation (CSS) or
+                functionality/behavior (JavaScript).
+              </p>
+              <p>
+                HTML (HyperText Markup Language) is the most basic building
+                block of the Web. It defines the meaning and structure of web
+                content. Other technologies besides HTML are generally used to
+                describe a web page's appearance/presentation (CSS) or
+                functionality/behavior (JavaScript).
+              </p>
+              <p>
                 If you're new to web development, be sure to read our HTML
                 Basics article to learn what HTML is and how to use it.
               </p>
             </section>
           </article>
         </div>
-        <aside class="about-article">
-          <section class="about-article__info">
-            <h2>In this article</h2>
-            <nav class="about-article-navigation">
-              <ul class="article-navigation-list">
-                <li class="article-navigation-list__element">Key resources</li>
-                <li class="article-navigation-list__element">
-                  Beginner's tutorials
-                </li>
-                <li class="article-navigation-list__element">
-                  Advanced topics
-                </li>
-                <li class="article-navigation-list__element">Reference</li>
-              </ul>
-            </nav>
-          </section>
-        </aside>
       </div>
     </main>
     <footer class="page-footer">
       <div class="page-footer-wrapper">
-        <div class="footer-links">
+        <div class="footer-links page-footer__element column">
           <h2 class="footer-links__header">MDN</h2>
           <span class="footer-links__slogan">
             Your blueprint for a better internet.
@@ -154,60 +182,59 @@
             <div class="footer-links__links-item"><a href="#">mozilla</a></div>
           </div>
         </div>
-        <div class="page-footer-inside-wrapper">
-          <div class="footer-mdn">
-            <h2 class="footer-mdn__header">MDN</h2>
-            <ul class="footer-mdn__list">
-              <li class="footer-mdn__list-element"><a href="#">About</a></li>
-              <li class="footer-mdn__list-element"><a href="#">Blog</a></li>
-              <li class="footer-mdn__list-element"><a href="#">Careers</a></li>
-              <li class="footer-mdn__list-element">
-                <a href="#">Advertise with us</a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer-support">
-            <h2 class="footer-support__header">Support</h2>
-            <ul class="footer-support__list">
-              <li class="footer-support__list-element">
-                <a href="#">Product help</a>
-              </li>
-              <li class="footer-support__list-element">
-                <a href="#">Report an issue</a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer-community">
-            <h2 class="footer-community__header">Our communities</h2>
-            <ul class="footer-community__list">
-              <li class="footer-community__list-element">
-                <a href="#">MDN Community</a>
-              </li>
-              <li class="footer-community__list-element">
-                <a href="#">MDN Forum</a>
-              </li>
-              <li class="footer-community__list-element">
-                <a href="#">MDN Chat</a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer-developers">
-            <h2 class="footer-developers__header">Developers</h2>
-            <ul class="footer-developers__list">
-              <li class="footer-developers__list-element">
-                <a href="#">Web Technologies</a>
-              </li>
-              <li class="footer-developers__list-element">
-                <a href="#">Learn Web Development</a>
-              </li>
-              <li class="footer-developers__list-element">
-                <a href="#">MDN Plus</a>
-              </li>
-              <li class="footer-developers__list-element">
-                <a href="#">Hacks Blog</a>
-              </li>
-            </ul>
-          </div>
+
+        <div class="page-footer__element footer-mdn column">
+          <h2 class="footer-mdn__header">MDN</h2>
+          <ul class="footer-mdn__list column">
+            <li class="footer-mdn__list-element"><a href="#">About</a></li>
+            <li class="footer-mdn__list-element"><a href="#">Blog</a></li>
+            <li class="footer-mdn__list-element"><a href="#">Careers</a></li>
+            <li class="footer-mdn__list-element">
+              <a href="#">Advertise with us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__element footer-support column">
+          <h2 class="footer-support__header">Support</h2>
+          <ul class="footer-support__list column">
+            <li class="footer-support__list-element">
+              <a href="#">Product help</a>
+            </li>
+            <li class="footer-support__list-element">
+              <a href="#">Report an issue</a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__element footer-community column">
+          <h2 class="footer-community__header">Our communities</h2>
+          <ul class="footer-community__list column">
+            <li class="footer-community__list-element">
+              <a href="#">MDN Community</a>
+            </li>
+            <li class="footer-community__list-element">
+              <a href="#">MDN Forum</a>
+            </li>
+            <li class="footer-community__list-element">
+              <a href="#">MDN Chat</a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__element footer-developers column">
+          <h2 class="footer-developers__header">Developers</h2>
+          <ul class="footer-developers__list column">
+            <li class="footer-developers__list-element">
+              <a href="#">Web Technologies</a>
+            </li>
+            <li class="footer-developers__list-element">
+              <a href="#">Learn Web Development</a>
+            </li>
+            <li class="footer-developers__list-element">
+              <a href="#">MDN Plus</a>
+            </li>
+            <li class="footer-developers__list-element">
+              <a href="#">Hacks Blog</a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>

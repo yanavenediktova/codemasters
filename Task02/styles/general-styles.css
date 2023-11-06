@@ -9,12 +9,17 @@
 *::after {
   box-sizing: border-box;
 }
+html,
+body {
+  overflow-x: hidden;
+}
 .row {
   display: flex;
 }
 .column {
   display: flex;
   flex-direction: column;
+  row-gap: 5px;
 }
 .link {
   color: var(--text-primary);

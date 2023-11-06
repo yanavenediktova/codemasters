@@ -1,14 +1,9 @@
 .page-footer-wrapper {
   display: flex;
-
+  flex-wrap: wrap;
   justify-content: space-around;
 }
-.page-footer-inside-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  column-gap: 4vw;
-}
+
 .page-footer {
   background-color: var(--background-secondary);
   color: var(--text-secondary);
@@ -19,4 +14,12 @@
 .footer-developers__list,
 .footer-mdn__list {
   padding-inline-start: 0px;
+}
+.footer-links__links {
+  display: flex;
+  justify-content: space-between;
+  max-width: 200px;
+}
+.footer-links {
+  row-gap: 20px;
 }
