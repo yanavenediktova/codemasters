@@ -13,8 +13,13 @@ html,
 body {
   overflow-x: hidden;
 }
-body {
+.body-wrapper {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.page-main {
+  flex-grow: 1;
 }
 .row {
   display: flex;

@@ -12,12 +12,17 @@
     grid-column: 1;
     grid-row: 2/3;
     padding-left: 40px;
+    order: -1;
   }
   .main-content {
     grid-row: 1/ 4;
   }
   .page-footer {
     font-size: 0.83rem;
+  }
+  .sidebar {
+    display: flex;
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 768px) {
