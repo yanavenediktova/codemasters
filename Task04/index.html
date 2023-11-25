@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@100;400;500;700&family=Rubik:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/form.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <head class="registration-header">
+      <h1 class="registration-header__title">Registration</h1>
+    </head>
+    <main class="main-registration">
+      <form action="#" method="get" class="registration-form">
+        <div class="registration-form__wrapper">
+          <div class="registration-form__element">
+            <label for="email" class="column"
+              >Электронная почта*<input
+                type="text"
+                id="email"
+                class="registration-form__input"
+            /></label>
+          </div>
+          <div class="registration-form__element">
+            <label for="fio" class="column"
+              >ФИО*<input type="text" id="fio" class="registration-form__input"
+            /></label>
+          </div>
+          <div class="registration-form__element">
+            <label for="password" class="column"
+              >Введите пароль*<input
+                type="password"
+                id="password"
+                class="registration-form__input"
+            /></label>
+          </div>
+          <div class="registration-form__element">
+            <label for="password-second" class="column"
+              >Подтвердите пароль*<input
+                id="password-second"
+                type="password"
+                class="registration-form__input"
+            /></label>
+          </div>
+          <div>
+            <div class="reg-check registration-form__element">
+              <label for="check" class="check-registration"
+                ><input
+                  type="checkbox"
+                  id="check"
+                  class="visually-hidden check-registration__input"
+                />
+                <span class="check-registration__image"></span>
+                <span>Я подтверждаю, что хочу зарегистрироваться</span>
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="registration-form__element form-button">
+            Отправить
+          </button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
