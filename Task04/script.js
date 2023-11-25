@@ -42,13 +42,14 @@ let checkPatternPassword = () => {
 let isPasswordSimilar = (password1, password2) =>
   password1.value.trim() == password2.value.trim() ? true : false;
 
+formBtn.addEventListener("click", removeErrors);
+formBtn.addEventListener("click", validationForm);
+
 function replaceElem(field, lengthOfField, length) {
   let str = arrayOfErrors[length].replace("length", lengthOfField);
   str = str.replace("field", field);
   return str;
 }
-formBtn.addEventListener("click", removeErrors);
-formBtn.addEventListener("click", validationForm);
 
 function removeErrors(event) {
   event.preventDefault();
