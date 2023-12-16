@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="quiz-header">
+      <h1 class="quiz-header__title">Quiz</h1>
+    </header>
+    <main class="main">
+      <div class="main-quiz main-quiz-wrapper">
+        <div class="quiz-heading">
+          <div class="main-quiz__progress progress">
+            <p class="main-quiz__current-progress">
+              <span class="progress__current">0</span> из
+              <span class="main-quiz__total">0</span>
+            </p>
+          </div>
+          <div class="main-quiz__score">
+            Score: <span class="score">0</span>
+          </div>
+        </div>
+        <div class="main-quiz__content content">
+          <button
+            type="button"
+            class="main-quiz__button_main"
+            id="start-button"
+          >
+            Начать
+          </button>
+        </div>
+        <div class="main-quiz__status">
+          <button class="button-next hide" type="button">Следующий</button>
+        </div>
+      </div>
+    </main>
+    <footer class="quiz-footer"></footer>
+  </body>
+</html>
