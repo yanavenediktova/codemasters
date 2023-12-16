@@ -1,7 +1,7 @@
-Чтобы всё запустить:
+
 
 1. npm i
-2. npm start
-3. npm run json:serve
+2. npm run json:server
+3. npm run serve
 
-Всё готово
+
